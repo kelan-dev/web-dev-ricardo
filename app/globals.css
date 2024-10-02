@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://github.com/stephane-monnot/react-vertical-timeline/issues/171#issuecomment-1868709984 */
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+
+.border-dim {
+  @apply border border-black/15;
+}
